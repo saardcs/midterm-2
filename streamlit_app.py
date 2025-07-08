@@ -181,7 +181,7 @@ questions_16_20 = {
     19: ("How many possible characters are there for the fifth spot in the password?",
          ["a. 26 possible letters and numbers", "b. 22 possible letters and numbers", 
           "c. 36 possible letters and numbers", "d. 32 possible letters and numbers"],
-         "d"),
+         "c"),
     20: ("How many total password combinations are possible?",
          ["a. 916,132,832 possible combinations", 
           "b. 60,466,176 possible combinations", 
