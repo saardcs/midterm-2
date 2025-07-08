@@ -320,8 +320,8 @@ if st.button("Submit Test"):
             }
                     }
 
-        st.markdown("### 📄 Submission Preview")
-        st.json(submission)
+        # st.markdown("### 📄 Submission Preview")
+        # st.json(submission)
 
         # Save to file
         import json, os
