@@ -181,7 +181,7 @@ questions_16_20 = {
     19: ("How many possible characters are there for the fifth spot in the password?",
          ["a. 26 possible letters and numbers", "b. 22 possible letters and numbers", 
           "c. 36 possible letters and numbers", "d. 32 possible letters and numbers"],
-         "c"),
+         "d"),
     20: ("How many total password combinations are possible?",
          ["a. 916,132,832 possible combinations", 
           "b. 60,466,176 possible combinations", 
@@ -253,12 +253,12 @@ def grade_part2():
 def grade_part3():
     return grade_multiple_groups(questions_11_15, questions_16_20, scale=10)
 
-if st.button("Grade Test"):
-    s1 = grade_part1()
-    s2 = grade_part2()
-    s3 = grade_part3()
-    total = s1 + s2 + s3
-    st.success(f"Scores → Part I: {s1}/5 · Part II: {s2}/5 · Part III: {s3}/10 · **Total: {total}/20**")
+# if st.button("Grade Test"):
+#     s1 = grade_part1()
+#     s2 = grade_part2()
+#     s3 = grade_part3()
+#     total = s1 + s2 + s3
+#     st.success(f"Scores → Part I: {s1}/5 · Part II: {s2}/5 · Part III: {s3}/10 · **Total: {total}/20**")
 
 if st.button("Grade Test (with debug)"):
     for q in range(16, 21):
