@@ -260,11 +260,11 @@ def grade_part3():
 #     total = s1 + s2 + s3
 #     st.success(f"Scores → Part I: {s1}/5 · Part II: {s2}/5 · Part III: {s3}/10 · **Total: {total}/20**")
 
-if st.button("Grade Test (with debug)"):
-    for q in range(16, 21):
-        st.write(f"Q{q} answer:", st.session_state.get(f"q{q}", ""))
-    s3 = grade_part3()
-    st.success(f"Part III score: {s3}")
+# if st.button("Grade Test (with debug)"):
+#     for q in range(16, 21):
+#         st.write(f"Q{q} answer:", st.session_state.get(f"q{q}", ""))
+#     s3 = grade_part3()
+#     st.success(f"Part III score: {s3}")
 
 decimal.getcontext().rounding = decimal.ROUND_HALF_UP
 
