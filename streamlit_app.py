@@ -108,10 +108,10 @@ st.image("4_blocks.png")
 
 questions_9_10 = {
     9: ("How many possible block towers can you make",
-        ["a. 24", "b. 64", "c. 96", "d. 120"],
+        ["a. 6", "b. 12", "c. 18", "d. 24"],
         "d"),
     10: ("How many five-block towers can you make, if there is a restriction that the red block cannot be at the top",
-         ["a. 24", "b. 64", "c. 96", "d. 120"],
+         ["a. 6", "b. 12", "c. 18", "d. 24"],
          "c"),
 }
 
